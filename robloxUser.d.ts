@@ -1,0 +1,1 @@
+{"version":3,"file":"chatStats.d.ts","sourceRoot":"","sources":["../../../src/generated/types/chatStats.ts"],"names":[],"mappings":"AAAA;;;;;;GAMG;AAEH,MAAM,WAAW,SAAS;IACxB,aAAa,EAAE,MAAM,CAAC;IACtB,aAAa,EAAE,MAAM,CAAC;IACtB,gBAAgB,EAAE,MAAM,CAAC;IACzB,gBAAgB,EAAE,MAAM,CAAC;CAC1B"}

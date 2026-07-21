@@ -1,0 +1,1 @@
+{"version":3,"file":"authStatus.d.ts","sourceRoot":"","sources":["../../../src/generated/types/authStatus.ts"],"names":[],"mappings":"AAAA;;;;;;GAMG;AACH,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,cAAc,CAAC;AAE/C,MAAM,WAAW,UAAU;IACzB,aAAa,EAAE,OAAO,CAAC;IACvB,IAAI,CAAC,EAAE,UAAU,CAAC;CACnB"}
