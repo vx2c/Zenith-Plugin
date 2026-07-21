@@ -1,0 +1,25 @@
+modules = ["nodejs-24"]
+
+[deployment]
+router = "application"
+deploymentTarget = "autoscale"
+
+[deployment.postBuild]
+args = ["pnpm", "store", "prune"]
+env = { "CI" = "true" }
+
+[workflows]
+runButton = "Project"
+
+[agent]
+stack = "PNPM_WORKSPACE"
+expertMode = true
+
+[postMerge]
+path = "scripts/post-merge.sh"
+timeoutMs = 20000
+
+[userenv]
+
+[userenv.shared]
+ROBLOX_REDIRECT_URI = "https://af2d7790-f2b2-4cd4-8c02-72468649e620-00-b1tiulnez7b7.spock.replit.dev/api/auth/roblox/callback"
